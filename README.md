@@ -32,7 +32,7 @@ A full KiCad library containing matched schematic symbols and PCB footprints, co
 Add my custom repository to the Plugin and Content Manager, the URL is:
 
 ```
-https://raw.githubusercontent.com/HenriqueAleixo/HenriqueAleixo-kicad-repository/main/repository.json
+https://raw.githubusercontent.com/HenriqueAleixo/Kicad-Library/main/repository.json
 ```
 
 ![Add My Custom Kicad Package Repo](images/Add_Custom_Repo.avif)

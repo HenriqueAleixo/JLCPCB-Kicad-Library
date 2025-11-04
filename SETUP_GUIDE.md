@@ -6,7 +6,7 @@
 
 1. Vá para https://github.com/new
 2. Crie um novo repositório:
-   - Nome: `HenriqueAleixo-kicad-repository`
+   - Nome: `Kicad-Library`
    - Descrição: "Custom KiCad package repository"
    - Público
    - Sem README (vamos adicionar depois)
@@ -14,8 +14,8 @@
 3. Clone o repositório:
 ```powershell
 cd c:\Users\Aleixo\Documents\projetos
-git clone https://github.com/HenriqueAleixo/HenriqueAleixo-kicad-repository.git
-cd HenriqueAleixo-kicad-repository
+git clone https://github.com/HenriqueAleixo/Kicad-Library.git
+cd Kicad-Library
 ```
 
 4. Copie os arquivos necessários:
@@ -73,7 +73,7 @@ Depois que a release for criada:
 Get-FileHash .\JLCPCB-KiCad-Library-2025.11.04.zip -Algorithm SHA256
 ```
 
-3. Edite o `repository.json` no repositório `HenriqueAleixo-kicad-repository`:
+3. Edite o `repository.json` no repositório `Kicad-Library`:
    - Substitua `"download_sha256": ""` pelo hash correto
    - Atualize `download_size` com o tamanho real do arquivo
 
@@ -92,7 +92,7 @@ git push origin main
 4. Clique em `Manage...` (canto inferior esquerdo)
 5. Adicione o repositório:
    ```
-   https://raw.githubusercontent.com/HenriqueAleixo/HenriqueAleixo-kicad-repository/main/repository.json
+   https://raw.githubusercontent.com/HenriqueAleixo/Kicad-Library/main/repository.json
    ```
 6. Clique em `Save`
 7. Selecione `HenriqueAleixo's KiCad Repository` no dropdown

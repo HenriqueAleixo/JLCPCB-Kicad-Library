@@ -9,7 +9,7 @@ Repositório de pacotes customizados do KiCad para instalação via Package Mana
 3. Clique em `Manage...` (canto inferior esquerdo)
 4. Adicione este repositório:
    ```
-   https://raw.githubusercontent.com/HenriqueAleixo/HenriqueAleixo-kicad-repository/main/repository.json
+   https://raw.githubusercontent.com/HenriqueAleixo/Kicad-Library/main/repository.json
    ```
 5. Salve e instale os pacotes disponíveis
 
