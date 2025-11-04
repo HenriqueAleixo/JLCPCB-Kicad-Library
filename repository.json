@@ -1,0 +1,46 @@
+{
+    "name": "HenriqueAleixo's KiCad Repository",
+    "maintainer": {
+        "name": "Henrique Aleixo",
+        "contact": {
+            "web": "https://github.com/HenriqueAleixo"
+        }
+    },
+    "packages": [
+        {
+            "$schema": "https://go.kicad.org/pcm/schemas/v1",
+            "name": "JLCPCB KiCad Library",
+            "description": "A set of symbol Libraries and a set of footprints and 3d models of the basic components from JLCPCB smt assembly",
+            "description_full": "A full KiCad library containing matched schematic symbols and PCB footprints, complete with 3D STEP models. All components are from JLCPCB's basic and preferred parts list, ensuring no extra setup costs.",
+            "identifier": "com.github.HenriqueAleixo.JLCPCB-Kicad-Library",
+            "type": "library",
+            "author": {
+                "name": "Henrique Aleixo (fork from Chris Dirks)",
+                "contact": {
+                    "web": "https://github.com/HenriqueAleixo"
+                }
+            },
+            "license": "MIT",
+            "resources": {
+                "homepage": "https://github.com/HenriqueAleixo/JLCPCB-Kicad-Library"
+            },
+            "tags": [
+                "footprints",
+                "symbols",
+                "jlcpcb",
+                "lcsc"
+            ],
+            "versions": [
+                {
+                    "version": "2025.11.04",
+                    "status": "stable",
+                    "kicad_version": "8.0",
+                    "download_url": "https://github.com/HenriqueAleixo/JLCPCB-Kicad-Library/releases/download/2025.11.04/JLCPCB-KiCad-Library-2025.11.04.zip",
+                    "download_size": 50000000,
+                    "install_size": 150000000,
+                    "download_sha256": ""
+                }
+            ]
+        }
+    ]
+}

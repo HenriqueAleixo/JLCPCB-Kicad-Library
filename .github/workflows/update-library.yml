@@ -35,6 +35,20 @@ jobs:
       - name: Get current date
         run: echo "CURRENT_DATE=$(date +'%Y.%m.%d')" >> $GITHUB_ENV
 
+      - name: Create ZIP package
+        run: |
+          mkdir -p package
+          cp metadata.json package/
+          cp LICENSE package/
+          cp README.md package/
+          cp -r symbols package/
+          cp -r footprints package/
+          cp -r 3dmodels package/
+          cp -r resources package/ || true
+          cd package
+          zip -r ../JLCPCB-KiCad-Library-${{ env.CURRENT_DATE }}.zip .
+          cd ..
+
       - uses: softprops/action-gh-release@v2
         with:
           name: ${{ env.CURRENT_DATE }}

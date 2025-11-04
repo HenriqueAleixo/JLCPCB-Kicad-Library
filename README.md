@@ -32,14 +32,14 @@ A full KiCad library containing matched schematic symbols and PCB footprints, co
 Add my custom repository to the Plugin and Content Manager, the URL is:
 
 ```
-https://raw.githubusercontent.com/CDFER/cd_fer-kicad-repository/main/repository.json
+https://raw.githubusercontent.com/HenriqueAleixo/HenriqueAleixo-kicad-repository/main/repository.json
 ```
 
 ![Add My Custom Kicad Package Repo](images/Add_Custom_Repo.avif)
 
 ![Select My Custom Kicad Package Repo and press install](images/Select_Custom_Repo.avif)
 
-After adding the repository link, press Save. Then, select CD_FER's KiCad repository from the dropdown menu and click on the JLCPCB KiCad Library. Finally, click the Install button and apply the pending changes.
+After adding the repository link, press Save. Then, select HenriqueAleixo's KiCad repository from the dropdown menu and click on the JLCPCB KiCad Library. Finally, click the Install button and apply the pending changes.
 
 ### Install Guide Video
 

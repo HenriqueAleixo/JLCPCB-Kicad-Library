@@ -2,19 +2,18 @@
     "$schema": "https://go.kicad.org/pcm/schemas/v1",
     "name": "JLCPCB KiCad Library",
     "description": "A set of symbol Libraries and a set of footprints and 3d models of the basic components from JLCPCB smt assembly",
-    "description_full": "A full KiCad library containing matched schematic symbols and PCB footprints, complete with 3D STEP models. All components are from JLCPCB's basic and preferred parts list, ensuring no extra setup costs. I\u2019m not affiliated or sponsored by jlcpcb, just another customer.",
-    "identifier": "com.github.CDFER.JLCPCB-Kicad-Library",
+    "description_full": "A full KiCad library containing matched schematic symbols and PCB footprints, complete with 3D STEP models. All components are from JLCPCB's basic and preferred parts list, ensuring no extra setup costs. Fork from Chris Dirks.",
+    "identifier": "com.github.HenriqueAleixo.JLCPCB-Kicad-Library",
     "type": "library",
     "author": {
-        "name": "Chris Dirks",
+        "name": "Henrique Aleixo (fork from Chris Dirks)",
         "contact": {
-            "email": "cdirksfer@gmail.com",
-            "web": "https://keastudios.co.nz/"
+            "web": "https://github.com/HenriqueAleixo"
         }
     },
     "license": "MIT",
     "resources": {
-        "homepage": "https://github.com/CDFER/JLCPCB-Kicad-Library"
+        "homepage": "https://github.com/HenriqueAleixo/JLCPCB-Kicad-Library"
     },
     "tags": [
         "footprints",
