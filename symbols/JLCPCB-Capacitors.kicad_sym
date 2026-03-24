@@ -64,7 +64,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "404787"
+		(property "Stock" "404667"
 			(at 0 0 0)
 			(effects
 				(font
@@ -294,7 +294,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "5166336"
+		(property "Stock" "5119650"
 			(at 0 0 0)
 			(effects
 				(font
@@ -560,7 +560,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "3578641"
+		(property "Stock" "3473432"
 			(at 0 0 0)
 			(effects
 				(font
@@ -826,7 +826,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "1684798"
+		(property "Stock" "1894621"
 			(at 0 0 0)
 			(effects
 				(font
